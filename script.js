@@ -13,6 +13,7 @@ function generatePassword() {
   var input = parseInt(prompt("Choose a lenght between 8 and 128"));
   // User should select a range between 8 and 128
   // the entire if statement has to go under the var input so it runs in sequential order.
+  // we need to add !isNaN to prevent it from accepting non numbers
   if (input >= 8 && input <= 128 && !isNaN(input)) {
   } else {
     alert("ah ah ahh, whats the magic word?");
@@ -48,6 +49,7 @@ console.log(input)
   // get a random character from out string
   // after we get the random character 
   // we add it to the generated password
+  // Sasha helped figure out for loop by adding arithmatic elements 
   var generatedPassword = "";
   for (var i = 0; i < input; i++) {
     var randomNumber = Math.floor(Math.random() * passwordIngredients.length)
