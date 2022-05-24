@@ -1,7 +1,7 @@
 # Password-Generator
 
 
-[LIVE SITE](https://hreichgelt.github.io/Portfolio/)
+[LIVE SITE](https://hreichgelt.github.io/Password-Generator/)
 
 ## TABLE OF CONTENTS
 
@@ -30,5 +30,5 @@ John Titus - Tutor
 ## RESOURCES 
 1. [LIVE SITE](https://hreichgelt.github.io/)
 
-2. [REPOSITORY](https://github.com/Hreichgelt/.git)
+2. [REPOSITORY](https://github.com/Hreichgelt/Password-Generator)
 
