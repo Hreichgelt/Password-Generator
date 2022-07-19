@@ -10,6 +10,7 @@ function generatePassword() {
   var uppercase = lowercase.toUpperCase();
   var passwordIngredients = "";
 
+
   var input = parseInt(prompt("Choose a lenght between 8 and 128"));
   // User should select a range between 8 and 128
   // the entire if statement has to go under the var input so it runs in sequential order.
@@ -26,17 +27,17 @@ function generatePassword() {
   var inputSpecial = confirm("Would you like to use special characters?");
   var inputCapital = confirm("Would you like to use capital letters?");
   var inputLower = confirm("Would you like to use lowercase letters?");
-console.log(input)
+  console.log(input)
 
   // if the user selects yes they want numbers, we add it to the passwordingredients variable 
-  if(inputNum) {
+  if (inputNum) {
     passwordIngredients += numbers;
-  } 
+  }
   // if the user selects no, they do not want special characters, it will not be added to the password ingredients
-  if(inputSpecial) {
+  if (inputSpecial) {
     passwordIngredients += special;
   }
-  if(inputCapital) {
+  if (inputCapital) {
     passwordIngredients += uppercase;
   }
   if (inputLower) {
@@ -54,7 +55,7 @@ console.log(input)
   for (var i = 0; i < input; i++) {
     var randomNumber = Math.floor(Math.random() * passwordIngredients.length)
     generatedPassword += passwordIngredients[randomNumber];
-    
+
   }
   return generatedPassword;
 }

@@ -1,4 +1,6 @@
-# Password-Generator
+# Password Generator 
+
+A random password generator with customizable criteria so you can create a strong password that provides greater security.
 
 
 [LIVE SITE](https://hreichgelt.github.io/Password-Generator/)
@@ -19,8 +21,10 @@ This is a page that will generate a random password. The user will be able to se
 Click "Generate Password" the page will prompt the user with "choose a length between 8 and 128", where they should enter something in that range. The next confirm if they want numbers. They can either click "OK" (yes), or "Cancel" (No). The next confirm will be for special characters, then capital letters, and finally lowercase letters. Once those steps have been completed, the page will generate a random password with their criteria selected. 
 
 ## VISUALS 
-![Password Generator](./assets/Password Generator.png)
-
+![Main Screen](./assets/main.png)
+![Credential 1](./assets/credential1.png)
+![Cred 2](./assets/credential2.png)
+![Generated](./assets/generated.png)
 
 
 ## AUTHORS AND ACKNOWLEDGMENTS
@@ -29,7 +33,7 @@ Instructional Staff for coding bootcamp
 John Titus - Tutor
 
 ## RESOURCES 
-1. [LIVE SITE](https://hreichgelt.github.io/)
+1. [LIVE SITE](https://hreichgelt.github.io/Password-Generator/)
 
 2. [REPOSITORY](https://github.com/Hreichgelt/Password-Generator)
 
